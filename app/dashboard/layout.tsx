@@ -1,4 +1,7 @@
+import exp from "constants";
 import SideNav from "../ui/dashboard/sidenav";
+
+export const experimental_ppl = true;
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
